@@ -1,10 +1,10 @@
 import 'package:agora_uikit/agora_uikit.dart';
-import 'package:chatlynx/common/widgets/loader.dart';
-import 'package:chatlynx/config/agora_config.dart';
-import 'package:chatlynx/features/call/controller/call_controller.dart';
 import 'package:chatlynx/models/call.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:chatlynx/common/widgets/loader.dart';
+import 'package:chatlynx/config/agora_config.dart';
+import 'package:chatlynx/features/call/controller/call_controller.dart';
 
 class CallScreen extends ConsumerStatefulWidget {
   final String channelId;
